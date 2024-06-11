@@ -6,7 +6,7 @@ main:
     conference: Biosys Workshop, International Conference on Architectural Support for Programming Languages and Operating Systems (<strong>ASPLOS</strong>) 2024
     pdf: https://doi.org/10.1101/2024.03.23.586366
     code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Ongoing work with AMD & UMICH
     image: ./assets/img/mm2gb.png
