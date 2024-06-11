@@ -27,4 +27,4 @@ AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap ca
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+#{% include_relative _includes/services.md %}
