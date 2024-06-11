@@ -8,8 +8,11 @@ Dr. Harisankar (Hari) Sadasivan is a Staff Engineer in the AMD AI Group and a fa
 
 ## Research Interests
 
+I envision a world where AI is advanced enough to diagnose and find cures via Precision Medicine for all human diseases. I realize that's a big jump. So, I have broken down my interests for now. 
 - **High Performance Artificial Intelligence (AI):** Tall & Skinny GEMMs, Stream-K, Performance issues on multi-chiplet GPUs, LLM inference optimizations
 - **High Performance -omics:** Long-read DNA alignment, Raw signal alignment, AI-based Basecalling, Metagenomics
+
+Please shoot me an email if you are a potential collaborator/PI.
 
 ## News
 
