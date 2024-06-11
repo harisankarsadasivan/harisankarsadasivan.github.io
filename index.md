@@ -18,6 +18,12 @@ Please shoot me an email if you are a potential collaborator/PI.
 
 AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap can only be bridged with aggressive software innovation. In order to do this, it is necessary to understand the AI software stack and how it maps to the GPU hardware. I designed and teach a course on [AMD GPU Programming](https://sites.google.com/uw.edu/hipgpuprogramming) at the University of Washington Seattle. I am thankful to all content contributors (acknowledged on my slides). Students impressed me by porting several CUDA kernels to AMD's portable ROCm HIP framework. We ported Dynamic Time Warping, Tall and Skinny GEMMs, ML-based Minimap2 seedingand explored Stream-K optimizations.
 
+## PhD co-advisees
+
+I enjoy guiding motivated students:
+[M. Emin Ozturk](https://www.linkedin.com/in/m-emin-ozturk-11263944/), University of Utah
+[Juechu Dong](https://joydddd.github.io/) and [Xueshen Liu](https://www.linkedin.com/in/xueshen-liu-a75718205/), U Michigan Ann Arbor
+
 ## News
 
 - **[May. 2024]** Our paper on GPU accelerated Minimap2 chaining is accepted at Biosys, ASPLOS 2024. Here's an [AMD blog post](https://rocm.blogs.amd.com/ecosystems-and-partners/university-of-michigan/README.html) detailing our collaboration.
