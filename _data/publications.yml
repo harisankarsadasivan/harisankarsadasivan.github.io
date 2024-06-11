@@ -13,11 +13,44 @@ main:
 
   - title: "Accelerated Dynamic Time Warping on GPU for Selective Nanopore Sequencing"
     authors: <strong>Harisankar Sadasivan</strong>, Daniel Stiffler, Ajay Tirumala, Johnny Israeli, Satish Narayanasamy
-    conference_short: JBB
+    conference_short: NIH-PubMed Central
     conference: Journal of Biotechnology and Biomedicine, 2024
     pdf: https://www.fortunejournals.com/articles/accelerated-dynamic-time-warping.pdf
     code: https://github.com/harisankarsadasivan/DTWax/tree/FAST5
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work with AMD & UW Seattle
+    image: ./assets/img/teaser_example.png
+
+  - title: "Accelerating Minimap2 for Accurate Long Read Alignment on GPUs"
+    authors: <strong>Harisankar Sadasivan</strong>, Milos Maric, Eric Dawson, Vishanth Iyer, Johnny Israeli, Satish Narayanasamy
+    conference_short: NIH-PubMed Central
+    conference: Journal of Biotechnology and Biomedicine, 2023
+    pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10018915/
+    code: https://github.com/hsadasivan/mm2-ax
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Continuing work with AMD & UW Seattle
+    image: ./assets/img/teaser_example.png
+
+  - title: "SquiggleFilter: An Accelerator for Portable Virus Detection"
+    authors: <strong>Harisankar Sadasivan</strong>, Timothy Dunn, Jack Wadden, Kush Goliya, Kuan-Yu Chen, David Blaauw, Reetuparna Das, Satish Narayanasamy
+    conference_short: MICRO
+    conference: International Symposium on Microarchitecture, 2021
+    pdf: https://dl.acm.org/doi/10.1145/3466752.3480117
+    code: https://github.com/TimD1/SquiggleFilter
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: MICRO Top Picks 2022 with Honorable Mention, Multiple artefact badges
+    image: ./assets/img/teaser_example.png
+
+  - title: "Rapid Real-time Squiggle Classification for Read until using RawMap"
+    authors: <strong>Harisankar Sadasivan</strong>, Jack Wadden, Kush Goliya, Piyush Ranjan, Robert P Dickson, David Blaauw, Reetuparna Das, Satish Narayanasamy
+    conference_short: NIH-PubMed Central
+    conference: Archives of Clinical and Biomedical research, 2023
+    pdf: https://pubmed.ncbi.nlm.nih.gov/36938368/
+    code: https://github.com/harisankarsadasivan/RawMap
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Continuing work with UCSD
     image: ./assets/img/teaser_example.png
