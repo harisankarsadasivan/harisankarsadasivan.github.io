@@ -8,7 +8,7 @@ main:
     code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Ongoing with AMD & UMICH
+    notes: Ongoing work with AMD & UMICH
     image: ./assets/img/teaser_example.png
 
   - title: "Accelerated Dynamic Time Warping on GPU for Selective Nanopore Sequencing"
@@ -19,5 +19,5 @@ main:
     code: https://github.com/harisankarsadasivan/DTWax/tree/FAST5
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: NVIDIA
+    notes: Continuing work with AMD & UW Seattle
     image: ./assets/img/teaser_example.png
