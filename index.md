@@ -20,10 +20,9 @@ AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap ca
 
 ## PhD co-advisees
 
-I enjoy guiding motivated students:
--[M. Emin Ozturk](https://www.linkedin.com/in/m-emin-ozturk-11263944/), University of Utah
-
--[Juechu Dong](https://joydddd.github.io/) and [Xueshen Liu](https://www.linkedin.com/in/xueshen-liu-a75718205/), U Michigan Ann Arbor
+I enjoy guiding motivated students:<br/>
+-[M. Emin Ozturk](https://www.linkedin.com/in/m-emin-ozturk-11263944/), University of Utah<br/>
+-[Juechu Dong](https://joydddd.github.io/) and [Xueshen Liu](https://www.linkedin.com/in/xueshen-liu-a75718205/), U Michigan Ann Arbor<br/>
 
 ## News
 
