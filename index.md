@@ -14,6 +14,10 @@ I envision a world where AI is advanced enough to diagnose and find cures via Pr
 
 Please shoot me an email if you are a potential collaborator/PI.
 
+## Teaching
+
+AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap can only be bridged with aggressive software innovation. To do this, it is necessary to understand the AI software stack and how it maps to the GPU hardware. I designed and teach a course on [AMD GPU Programming](https://sites.google.com/uw.edu/hipgpuprogramming). Students impressed me by porting several CUDA kernels to AMD's portable ROCm HIP framework. We ported Dynamic Time Warping, Tall and Skinny GEMMs, ML-based Minimap2 seedingand explored Stream-K optimizations.
+
 ## News
 
 - **[May. 2024]** Our paper on GPU accelerated Minimap2 chaining is accepted at Biosys, ASPLOS 2024. Here's an [AMD blog post](https://rocm.blogs.amd.com/ecosystems-and-partners/university-of-michigan/README.html) detailing our collaboration.
@@ -21,10 +25,4 @@ Please shoot me an email if you are a potential collaborator/PI.
 - **[Jan. 2024]** Our paper on GPU accelerated Dynamic Time Warping is published in the Journal of Biotechnology and Biomedicine.
 - **[Dec. 2023]** Joined as a part-time course instructor at Paul G Allen School of CSE, UW Seattle to teach GPU Programming.
 
-## Teaching
-
-AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap can only be bridged with aggressive software innovation. To do this, it is necessary to understand the AI software stack and how it maps to the GPU hardware. I designed and teach a course on [AMD GPU Programming](https://sites.google.com/uw.edu/hipgpuprogramming). Students impressed me by porting several CUDA kernels to AMD's portable ROCm HIP framework. We ported Dynamic Time Warping, Tall and Skinny GEMMs, ML-based Minimap2 seedingand explored Stream-K optimizations.
-
 {% include_relative _includes/publications.md %}
-
-#{% include_relative _includes/services.md %}
