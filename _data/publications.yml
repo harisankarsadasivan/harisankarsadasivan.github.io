@@ -9,7 +9,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Ongoing work with AMD & UMICH
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/mm2gb.png
 
   - title: "Accelerated Dynamic Time Warping on GPU for Selective Nanopore Sequencing"
     authors: <strong>Harisankar Sadasivan</strong>, Daniel Stiffler, Ajay Tirumala, Johnny Israeli, Satish Narayanasamy
@@ -20,7 +20,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work with AMD & UW Seattle
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/dtwax.png
 
   - title: "Accelerating Minimap2 for Accurate Long Read Alignment on GPUs"
     authors: <strong>Harisankar Sadasivan</strong>, Milos Maric, Eric Dawson, Vishanth Iyer, Johnny Israeli, Satish Narayanasamy
@@ -31,7 +31,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work with AMD & UW Seattle
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/mm2ax.png
 
   - title: "SquiggleFilter: An Accelerator for Portable Virus Detection"
     authors: <strong>Harisankar Sadasivan</strong>, Timothy Dunn, Jack Wadden, Kush Goliya, Kuan-Yu Chen, David Blaauw, Reetuparna Das, Satish Narayanasamy
@@ -42,7 +42,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: MICRO Top Picks 2022 with Honorable Mention, Multiple artefact badges
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/squigglefilter.png
 
   - title: "Rapid Real-time Squiggle Classification for Read until using RawMap"
     authors: <strong>Harisankar Sadasivan</strong>, Jack Wadden, Kush Goliya, Piyush Ranjan, Robert P Dickson, David Blaauw, Reetuparna Das, Satish Narayanasamy
@@ -53,4 +53,4 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work AMD with UCSD
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/rawmap.png
