@@ -1,22 +1,23 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "mm2-gb: GPU Accelerated Minimap2 for Long Read DNA Mapping"
+    authors: Juechu Dong, Xueshen Liu, <strong>Harisankar Sadasivan</strong>, Sriranjani Sitaraman, Satish Narayanasamy
+    conference_short: Biosys
+    conference: Biosys Workshop, International Conference on Architectural Support for Programming Languages and Operating Systems (<strong>ASPLOS</strong>) 2024
+    pdf: https://doi.org/10.1101/2024.03.23.586366
+    code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Ongoing with AMD & UMICH
+    image: ./assets/img/teaser_example.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
+  - title: "Accelerated Dynamic Time Warping on GPU for Selective Nanopore Sequencing"
+    authors: <strong>Harisankar Sadasivan</strong>, Daniel Stiffler, Ajay Tirumala, Johnny Israeli, Satish Narayanasamy
+    conference_short: JBB
+    conference: Journal of Biotechnology and Biomedicine, 2024
+    pdf: https://www.fortunejournals.com/articles/accelerated-dynamic-time-warping.pdf
+    code: https://github.com/harisankarsadasivan/DTWax/tree/FAST5
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: NVIDIA
     image: ./assets/img/teaser_example.png
