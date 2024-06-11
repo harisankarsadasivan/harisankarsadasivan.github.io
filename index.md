@@ -13,8 +13,10 @@ Dr. Harisankar (Hari) Sadasivan is a Staff Engineer in the AMD AI Group and a fa
 
 ## News
 
-- **[May. 2024]** Our paper on GPU accelerated Minimap2 chaining is accepted at Biosys, ASPLOS.
-- **[Jan. 2024]** Our paper on GPU accelerated Dynamic Time Warping is published in the Journal of Biotechnology and Biomedicine
+- **[May. 2024]** Our paper on GPU accelerated Minimap2 chaining is accepted at Biosys, ASPLOS 2024.
+- **[April. 2024]** Joined as a part-time course instructor in ECE, UW Seattle to teach GPU Programming.
+- **[Jan. 2024]** Our paper on GPU accelerated Dynamic Time Warping is published in the Journal of Biotechnology and Biomedicine.
+- **[Dec. 2023]** Joined as a part-time course instructor at Paul G Allen School of CSE, UW Seattle to teach GPU Programming.
 
 {% include_relative _includes/publications.md %}
 
