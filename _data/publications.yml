@@ -10,6 +10,7 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Ongoing work with AMD & UMICH
     image: ./assets/img/mm2gb.png
+    text: mm2-gb accelerates Minimap2 chaining on GPUs
 
   - title: "Accelerated Dynamic Time Warping on GPU for Selective Nanopore Sequencing"
     authors: <strong>Harisankar Sadasivan</strong>, Daniel Stiffler, Ajay Tirumala, Johnny Israeli, Satish Narayanasamy
@@ -21,6 +22,7 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work with AMD & UW Seattle
     image: ./assets/img/dtwax.png
+    text: DTWax accelerates Dynamic Time Warping on GPUs
 
   - title: "Accelerating Minimap2 for Accurate Long Read Alignment on GPUs"
     authors: <strong>Harisankar Sadasivan</strong>, Milos Maric, Eric Dawson, Vishanth Iyer, Johnny Israeli, Satish Narayanasamy
@@ -32,6 +34,7 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work with AMD & UW Seattle
     image: ./assets/img/mm2ax.png
+    text: mm2-ax accelerated Minimap2 chaining on GPUs
 
   - title: "SquiggleFilter: An Accelerator for Portable Virus Detection"
     authors: <strong>Harisankar Sadasivan</strong>, Timothy Dunn, Jack Wadden, Kush Goliya, Kuan-Yu Chen, David Blaauw, Reetuparna Das, Satish Narayanasamy
@@ -43,6 +46,7 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: MICRO Top Picks 2022 with Honorable Mention, Multiple artefact badges
     image: ./assets/img/squigglefilter.png
+    text: SquiggleFilter accelerates Dynamic Time Warping using hardware-software co-design
 
   - title: "Rapid Real-time Squiggle Classification for Read until using RawMap"
     authors: <strong>Harisankar Sadasivan</strong>, Jack Wadden, Kush Goliya, Piyush Ranjan, Robert P Dickson, David Blaauw, Reetuparna Das, Satish Narayanasamy
@@ -54,3 +58,4 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work AMD with UCSD
     image: ./assets/img/rawmap.png
+    text: RawMap is a low-latency ML-based CPU metagenomics classifiers
