@@ -39,7 +39,7 @@ main:
     conference: International Symposium on Microarchitecture, 2021
     pdf: https://dl.acm.org/doi/10.1145/3466752.3480117
     code: https://github.com/TimD1/SquiggleFilter
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    talk: https://www.youtube.com/watch?v=7R7DXamyv8c
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: MICRO Top Picks 2022 with Honorable Mention, Multiple artefact badges
     image: ./assets/img/squigglefilter.png
