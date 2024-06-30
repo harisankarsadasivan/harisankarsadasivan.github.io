@@ -18,6 +18,8 @@ Please shoot me an email if you are a potential collaborator/PI.
 
 AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap can only be bridged with aggressive software innovation. In order to do this, it is necessary to understand the AI software stack and how it maps to the GPU hardware. I designed and teach a course on [AMD GPU Programming](https://sites.google.com/uw.edu/hipgpuprogramming) at the University of Washington Seattle. I am thankful to all content contributors (acknowledged on my slides). Students impressed me by porting several CUDA kernels to AMD's portable ROCm HIP framework. We ported Dynamic Time Warping, Tall and Skinny GEMMs, ML-based Minimap2 seedingand explored Stream-K optimizations.
 
+I am currently in the works of developing a new course at the University of Washington Seattle titled, "Matrix to Machines: GPU HW Design on FPGA for AI". I'm on the lookout for a course development TA in fall. Email me if you are up for it.
+
 ## PhD co-advisees
 
 I enjoy guiding motivated students:<br/>
