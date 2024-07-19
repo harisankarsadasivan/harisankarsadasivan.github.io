@@ -2,11 +2,11 @@
 layout: homepage
 ---
 
-## About Me
+## About
 
 Dr. Harisankar (Hari) Sadasivan is a Staff Engineer in the AMD AI Group and a faculty member (part-time) at the University of Washington, Seattle. Hari's research focuses on 3 Critical and Emergent Technologies (CET) that are identified as significant for US's national security- 'advanced computing' for 'artificial intelligence' and 'biotechnologies'. At AMD, Hari co-leads several research projects on optimizing irregular AI and -omics kernels on modern multi-chiplet GPUs. At UW, Hari designed and teaches a parallel programming course on GPUs. Hari collaborates with several researchers from UCSD, UW Seattle, U Michigan, University of Utah, University Hospital of Basel and the Garvan Institute. Hari received his PhD and Masters in CSE from the University of Michigan Ann Arbor where he was advised by [Prof. Satish Narayanasamy](https://eecs.engin.umich.edu/people/narayanasamy-satish/). [Hari's PhD research](https://deepblue.lib.umich.edu/handle/2027.42/178086) focussed on HW-SW co-design for accelerated and portable long-read DNA sequencing. Hari's PhD research has won the 2022 MICRO Top Picks with Honorable Mention (with multiple artifact badges). Hari is a Technical reviewer with several IEEE/ACM venues including CAL, TACO, CGO, MICRO, IPDPS-RAW, IISWC and an editorial board member on several AI and genomics journals. Hari has previously worked with NVIDIA and Samsung R&D.
 
-## Research Interests
+## Research
 
 I envision a world where AI is advanced and performant enough to diagnose and find cures for all human diseases via techniques such as Precision Medicine. I realize that's a big jump. So, I have broken down my interests for now. 
 - **High Performance Artificial Intelligence (AI):** Tall & Skinny GEMMs, Stream-K, Performance issues on multi-chiplet GPUs, LLM inference optimizations
@@ -20,7 +20,7 @@ AI's demand for FLOPs has far outpaced what Moore's Law could offer. This gap ca
 
 I am currently in the works of developing a new course at the University of Washington Seattle titled, "Matrix to Machines: GPU HW Design on FPGA for AI". I'm on the lookout for a course development TA in fall. Email me if you are up for it.
 
-## PhD co-advisees
+## Advising
 
 I enjoy guiding motivated students:<br/>
 -[M. Emin Ozturk](https://www.linkedin.com/in/m-emin-ozturk-11263944/), University of Utah<br/>
