@@ -1,7 +1,7 @@
 main:
   - title: "The Genomic Computing Revolution: Defining the Next Decades of Accelerating Genomics"
     authors: <strong>Harisankar Sadasivan</strong>, Artur Klauser, Juergen Hench et al.
-    conference_short: HPEC
+    conference_short: Pre-print
     conference: In-submission
     pdf: http://dx.doi.org/10.13140/RG.2.2.36735.01443/1
     # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
