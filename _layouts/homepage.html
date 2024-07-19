@@ -36,32 +36,45 @@
 
     <style>
       .nav-bar {
-        position: absolute;
-        top: 10px;
-        right: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #f8f8f8;
+        padding: 10px 20px;
+        text-align: right;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
       }
       .nav-bar a {
-        color: #000;
+        color: #333;
         text-decoration: none;
         padding: 5px 10px;
         margin-left: 10px;
-        border: 1px solid #000;
         border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
       }
       .nav-bar a:hover {
-        background-color: #000;
+        background-color: #333;
         color: #fff;
+      }
+      .wrapper {
+        padding-top: 50px;
       }
     </style>
   </head>
   <body>
+    <nav class="nav-bar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
     <div class="wrapper">
       <header>
-        <nav class="nav-bar">
-          <a href="#home">Home</a>
-          <a href="#teaching">Teaching</a>
-        </nav>
-        
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
