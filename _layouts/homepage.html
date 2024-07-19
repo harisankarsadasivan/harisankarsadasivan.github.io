@@ -19,8 +19,8 @@
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     {% if site.font == "Sans Serif" %}
     <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
     {% else %}
@@ -45,7 +45,6 @@
         text-align: right;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         z-index: 1000;
-        overflow: hidden;
       }
       .nav-bar a {
         color: #333;
@@ -55,61 +54,32 @@
         border-radius: 5px;
         transition: background-color 0.3s, color 0.3s;
       }
-      .nav-bar a:hover, .nav-bar a.active {
+      .nav-bar a:hover {
         background-color: #333;
         color: #fff;
       }
       .wrapper {
         padding-top: 70px;
       }
-      .dna-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-      }
-      .dna {
-        position: absolute;
-        width: 100%;
-        height: 20px;
-        background-image: 
-          linear-gradient(90deg, transparent 50%, #ff6b6b 50%),
-          linear-gradient(90deg, transparent 50%, #4ecdc4 50%);
-        background-repeat: repeat-x;
-        background-size: 20px 4px, 20px 4px;
-        background-position: 0 0, 0 10px;
-        animation: moveDNA 2s linear infinite;
-      }
-      @keyframes moveDNA {
-        0% {
-          background-position: 0 0, 0 10px;
-        }
-        100% {
-          background-position: 20px 0, 20px 10px;
-        }
+      section[id] {
+        scroll-margin-top: 70px;
       }
     </style>
   </head>
   <body>
     <nav class="nav-bar">
-      <div class="dna-container">
-        <div class="dna"></div>
-      </div>
-      <a href="index.html" {% if page.title == "Home" %}class="active"{% endif %}>Home</a>
-      <a href="about.html" {% if page.title == "About" %}class="active"{% endif %}>About</a>
-      <a href="publications.html" {% if page.title == "Publications" %}class="active"{% endif %}>Publications</a>
-      <a href="projects.html" {% if page.title == "Projects" %}class="active"{% endif %}>Projects</a>
-      <a href="teaching.html" {% if page.title == "Teaching" %}class="active"{% endif %}>Teaching</a>
-      <a href="contact.html" {% if page.title == "Contact" %}class="active"{% endif %}>Contact</a>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#advising">Advising</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
     </nav>
 
     <div class="wrapper">
       <header>
-        
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="Harisankar Sadasivan" title="Harisankar Sadasivan" loading="lazy" /></a>
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
@@ -155,7 +125,7 @@
 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
+          <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
         </div>
@@ -169,7 +139,7 @@
       <br>
 
       {% if site.enable_footnote %}
-      <p><small>Welcome to Harisankar Sadasivan's <a href="https://harisadasivan.com/" target="_blank" rel="noopener">Home</a></small></p>
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
       {% endif %}
 
       </section>
@@ -178,6 +148,29 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var navLinks = document.querySelectorAll('.nav-bar a');
+        
+        navLinks.forEach(function(link) {
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            var targetId = this.getAttribute('href').substring(1);
+            var targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 60,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+    </script>
+
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -188,41 +181,5 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const navItems = document.querySelectorAll('.nav-bar a');
-        const dna = document.querySelector('.dna');
-        
-        function moveDNA(target) {
-          const navRect = document.querySelector('.nav-bar').getBoundingClientRect();
-          const targetRect = target.getBoundingClientRect();
-          const leftOffset = targetRect.left - navRect.left;
-          const width = targetRect.width;
-          
-          dna.style.left = `${leftOffset}px`;
-          dna.style.width = `${width}px`;
-        }
-
-        navItems.forEach(item => {
-          item.addEventListener('mouseenter', () => moveDNA(item));
-        });
-
-        // Move DNA to active item on page load
-        const activeItem = document.querySelector('.nav-bar a.active');
-        if (activeItem) {
-          moveDNA(activeItem);
-        }
-
-        // Reset DNA position when mouse leaves nav bar
-        document.querySelector('.nav-bar').addEventListener('mouseleave', () => {
-          if (activeItem) {
-            moveDNA(activeItem);
-          } else {
-            dna.style.left = '0';
-            dna.style.width = '100%';
-          }
-        });
-      });
-    </script>
   </body>
 </html>
