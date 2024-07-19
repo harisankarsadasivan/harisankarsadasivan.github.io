@@ -92,17 +92,20 @@
       body {
         padding-top: 50px;
       }
+      section[id] {
+        scroll-margin-top: 60px;
+      }
     </style>
 
   </head>
   <body>
     <nav class="nav-bar">
+      <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#advising">Advising</a>
-      <a href="#news">News</a>
       <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <div class="gpu-container">
@@ -192,5 +195,26 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var navLinks = document.querySelectorAll('.nav-bar a');
+        
+        navLinks.forEach(function(link) {
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            var targetId = this.getAttribute('href').substring(1);
+            var targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 50,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
