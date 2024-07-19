@@ -1,5 +1,16 @@
 main:
-
+  - title: "The Genomic Computing Revolution: Defining the Next Decades of Accelerating Genomics"
+    authors: <strong>Harisankar Sadasivan</strong>, Artur Klauser, Juergen Hench et al.
+    conference_short: HPEC
+    conference: In-submission
+    pdf: http://dx.doi.org/10.13140/RG.2.2.36735.01443/1
+    # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
+    # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: AMD world-wide collaboration
+    image: ./assets/img/genomics.png
+    text: Genomics HW & SW Review
+    
   - title: "mm2-gb: GPU Accelerated Minimap2 for Long Read DNA Mapping"
     authors: Juechu Dong, Xueshen Liu, <strong>Harisankar Sadasivan</strong>, Sriranjani Sitaraman, Satish Narayanasamy
     conference_short: Biosys
