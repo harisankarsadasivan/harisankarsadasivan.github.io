@@ -59,18 +59,21 @@
         color: #fff;
       }
       .wrapper {
-        padding-top: 50px;
+        padding-top: 70px;
+      }
+      section[id] {
+        scroll-margin-top: 70px;
       }
     </style>
   </head>
   <body>
     <nav class="nav-bar">
+      <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#advising">Advising</a>
-      <a href="#news">News</a>
       <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <div class="wrapper">
@@ -145,6 +148,29 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var navLinks = document.querySelectorAll('.nav-bar a');
+        
+        navLinks.forEach(function(link) {
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            var targetId = this.getAttribute('href').substring(1);
+            var targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 60,
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+    </script>
+
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
