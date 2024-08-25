@@ -1,4 +1,16 @@
 main:
+ - title: "Stream-K++: Adaptive GPU GEMM Kernel Scheduling and Selection using Bloom Filters"
+    authors: <strong>Harisankar Sadasivan</strong>, Muhammad Osama, Maksim Podkorytov et al.
+    conference_short: Pre-print
+    conference: In-submission
+    pdf: http://dx.doi.org/10.13140/RG.2.2.36735.01443/1
+    # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
+    # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: AMD
+    image: ./assets/img/genomics.png
+    text: Genomics HW & SW Review
+    
   - title: "The Genomic Computing Revolution: Defining the Next Decades of Accelerating Genomics"
     authors: <strong>Harisankar Sadasivan</strong>, Artur Klauser, Juergen Hench et al.
     conference_short: Pre-print
@@ -44,8 +56,8 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Continuing work with AMD & UW Seattle
-    image: ./assets/img/mm2ax.png
-    text: mm2-ax accelerated Minimap2 chaining on GPUs
+    image: ./assets/img/streamk.png
+    text: Uniform work partitioning on chiplets
 
   - title: "SquiggleFilter: An Accelerator for Portable Virus Detection"
     authors: <strong>Harisankar Sadasivan</strong>, Timothy Dunn, Jack Wadden, Kush Goliya, Kuan-Yu Chen, David Blaauw, Reetuparna Das, Satish Narayanasamy
