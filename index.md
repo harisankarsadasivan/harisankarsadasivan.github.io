@@ -27,6 +27,7 @@ I enjoy guiding motivated students:<br/>
 -[Juechu Dong](https://joydddd.github.io/) and [Xueshen Liu](https://www.linkedin.com/in/xueshen-liu-a75718205/), U Michigan Ann Arbor<br/>
 
 ## News
+- **[August. 2024]** Our work on improving the work-partitioning for AI on GPUs is out. Here's a [[pre-print]([url](https://arxiv.org/abs/2408.11417))]
 - **[July. 2024]** Our paper on attempting to set the direction for genomics acceleration for the next decades is out. Here's a [pre-print]([https://rocm.blogs.amd.com/ecosystems-and-partners/university-of-michigan/README.html](https://www.researchgate.net/publication/382267876_The_Genomic_Computing_Revolution_Defining_the_Next_Decades_of_Accelerating_Genomics)).
 - **[May. 2024]** Our paper on GPU accelerated Minimap2 chaining is presented at Biosys, ASPLOS 2024. Here's an [AMD blog post](https://rocm.blogs.amd.com/ecosystems-and-partners/university-of-michigan/README.html) detailing our collaboration. 
 - **[April. 2024]** Joined as a part-time course instructor in ECE, UW Seattle to teach GPU Programming. [Here's](https://www.linkedin.com/posts/uwece_applied-parallel-programming-on-gpusis-a-activity-7199847814019911680-kIcG?utm_source=share&utm_medium=member_desktop) what my students like about the most popular course at UW-ECE in 'SP24.
