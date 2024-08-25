@@ -1,9 +1,9 @@
 main:
- - title: "Stream-K++: Adaptive GPU GEMM Kernel Scheduling and Selection using Bloom Filters"
+  - title: "Stream-K++: Adaptive GPU GEMM Kernel Scheduling and Selection using Bloom Filters"
     authors: <strong>Harisankar Sadasivan</strong>, Muhammad Osama, Maksim Podkorytov et al.
     conference_short: Pre-print
     conference: In-submission
-    pdf: http://dx.doi.org/10.13140/RG.2.2.36735.01443/1
+    pdf: https://arxiv.org/pdf/2408.11417
     # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
     # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
