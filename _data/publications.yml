@@ -8,7 +8,7 @@ main:
     # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: AMD
-    image: ./assets/img/streamk.png
+    # image: ./assets/img/streamk.png
     text: Genomics HW & SW Review
     
   - title: "The Genomic Computing Revolution: Defining the Next Decades of Accelerating Genomics"
@@ -20,7 +20,7 @@ main:
     # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: AMD world-wide collaboration
-    # image: ./assets/img/genomics.png
+    image: ./assets/img/genomics.png
     text: Genomics HW & SW Review
     
   - title: "mm2-gb: GPU Accelerated Minimap2 for Long Read DNA Mapping"
