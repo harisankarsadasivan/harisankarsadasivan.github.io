@@ -7,7 +7,7 @@ main:
     # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
     # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: AMD world-wide
+    notes: AMD
     # image: ./assets/img/streamk.png
     text: Genomics HW & SW Review
 
@@ -19,7 +19,7 @@ main:
     # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
     # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: AMD world-wide
+    notes: AMD world-wide collaboration
     # image: ./assets/img/streamk.png
     text: GPU-accelerated Minimap2
 
