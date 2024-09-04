@@ -7,9 +7,22 @@ main:
     # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
     # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: AMD
+    notes: AMD world-wide
     # image: ./assets/img/streamk.png
     text: Genomics HW & SW Review
+
+  - title: "Rapid brain lymphoma diagnostics through nanopore sequencing of cytology-negative cerebrospinal fluid"
+    authors: J.Hench, C. Hultschig, I.Bratic Hench, <strong>Harisankar Sadasivan</strong> et al.
+    conference_short: Springer
+    conference: Acta Neuropathologica
+    pdf: https://arxiv.org/pdf/2408.11417
+    # code: https://github.com/Minimap2onGPU/mm2-gb/tree/gpu_kernel
+    # talk: https://www.youtube.com/watch?v=wdNwJnEdBDQ
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: AMD world-wide
+    # image: ./assets/img/streamk.png
+    text: GPU-accelerated Minimap2
+
     
   - title: "The Genomic Computing Revolution: Defining the Next Decades of Accelerating Genomics"
     authors: <strong>Harisankar Sadasivan</strong>, Artur Klauser, Juergen Hench et al.
