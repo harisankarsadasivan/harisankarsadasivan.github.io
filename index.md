@@ -4,13 +4,13 @@ layout: homepage
 
 ## About
 
-Dr. Harisankar (Hari) Sadasivan is a Member of Technical Staff in the AMD AI Group, a faculty member (part-time) at the University of Washington, Seattle, and a Senior Member of IEEE. Hari's research focuses on 3 Critical and Emergent Technologies (CET) that are identified as significant for US's national security- 'advanced computing' for 'artificial intelligence' and 'biotechnologies'. At AMD, Hari leads the AMD Center of Excellence in AI at UW Seattle and co-founded the AMD lifesciences group that collaborates with research labs worldwide. Hari received his PhD and Masters in CSE from the University of Michigan Ann Arbor where he was advised by [Prof. Satish Narayanasamy](https://eecs.engin.umich.edu/people/narayanasamy-satish/). [Hari's PhD research](https://deepblue.lib.umich.edu/handle/2027.42/178086) focussed on HW-SW co-design for accelerated and portable long-read DNA sequencing. Hari's PhD research has won the prestigious 2022 MICRO Top Picks with Honorable Mention (with multiple artifact badges). Hari is a Technical reviewer with several IEEE/ACM venues including the longest, oldest and the most prestigious formats. Hari has previously worked with NVIDIA and Samsung R&D.
+Dr. Harisankar (Hari) Sadasivan is an affiliate assistant professor at the University of Washington, Seattle, and a Senior Member & Distinguished Visitor at IEEE. Hari's research focuses on 3 Critical and Emergent Technologies (CET) that are identified as significant for US's national security- 'advanced computing' for 'artificial intelligence' and 'biotechnologies'. Previously, Hari led the AMD Center of Excellence in AI at UW Seattle and co-founded the AMD lifesciences group. Hari received his PhD and Masters in CSE from the University of Michigan Ann Arbor where he was advised by [Prof. Satish Narayanasamy](https://eecs.engin.umich.edu/people/narayanasamy-satish/). [Hari's PhD research](https://deepblue.lib.umich.edu/handle/2027.42/178086) focussed on HW-SW co-design for accelerated and portable long-read DNA sequencing. Hari's PhD research has won the prestigious 2022 MICRO Top Picks with Honorable Mention (with multiple artifact badges). Hari is a Technical reviewer with several IEEE/ACM venues including the longest, oldest and the most prestigious formats. Hari has previously worked with AMD, NVIDIA and Samsung R&D.
 
 ## Research
 
-I envision a world where AI is advanced and performant enough to diagnose and find cures for all human diseases via techniques such as Precision Medicine. I realize that's a big jump. So, I have broken down my interests for now. 
+I envision a world where AI is advanced and performant enough to diagnose and find cures for all human diseases via techniques such as Precision Medicine & Drug Discovery. I realize that's a big jump. So, I have broken down my interests for now. 
 - **High Performance Artificial Intelligence (AI):** Tall & Skinny GEMMs, Stream-K, Performance issues on multi-chiplet GPUs, LLM inference optimizations
-- **High Performance -omics:** Long-read DNA alignment, Raw signal alignment, AI-based Basecalling, Metagenomics
+- **High Performance -omics & Drug Discovery:** Long-read DNA alignment, Raw signal alignment, AI-based Basecalling, Metagenomics, Protein Structure Prediction
 
 Please shoot me an email if you are a potential collaborator/PI.
 
