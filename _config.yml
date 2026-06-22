@@ -1,19 +1,19 @@
 # Basic Information 
 title: Welcome to Harisankar Sadasivan's Homepage
-position: Affiliate assistant professor, UW Seattle
+position: Tech Lead, AI Performance Engineering, NVIDIA | Affiliate Assistant Professor, UW Seattle
 # affiliation: University of Washington Seattle
-email: hariss[at]umich[dot]edu
+email: hsadasiv[at]uw[dot]edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Hari Sadasivan Harisankar Sadasivan University of Washington, Seattle Oxford nanopore MinION Minimap2 mm2-ax mm2-gb DTWax 
-description: Hari Sadasivan is an affiliate assistant professor at the University of Washington, Seattle
+keywords: Harisankar Sadasivan, Hari Sadasivan, GPU performance engineer, CUDA, CUTLASS, CuTe, Triton, LLM inference optimization, FlashAttention, FP8 INT8 quantization, TensorRT-LLM, vLLM, GEMM, Stream-K, kernel fusion, NCCL NVLink, NVIDIA Hopper Blackwell, University of Washington, genomics acceleration, Minimap2, mm2-ax, mm2-gb, DTWax, RawMap
+description: Dr. Harisankar Sadasivan is a GPU / AI performance engineer (CUDA, CUTLASS, LLM inference and training optimization) and Affiliate Assistant Professor at the University of Washington, Seattle.
 canonical: https://harisadasivan.com
 
-# Links 
+# Links
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=bLEvsWsAAAAJ&hl=en
-# cv_link: assets/files/curriculum_vitae.pdf
+cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/harisankarsadasivan
 linkedin: https://www.linkedin.com/in/hariss-/
 twitter: https://x.com/iamharisankar
