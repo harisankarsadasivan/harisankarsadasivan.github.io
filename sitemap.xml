@@ -8,7 +8,7 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://harisadasivan.com/assets/img/profile/harisankarsadasivan.jpeg</image:loc>
+      <image:loc>https://harisadasivan.com/assets/img/harisankarsadasivan.png</image:loc>
       <image:title>Harisankar Sadasivan, Tech Lead AI Performance Engineering at NVIDIA</image:title>
       <image:caption>Profile photo of Dr. Harisankar Sadasivan</image:caption>
     </image:image>
@@ -17,14 +17,5 @@
       <image:title>Harisankar Sadasivan — GPU AI Performance Engineer</image:title>
     </image:image>
   </url>
-
-  <!-- Add an entry per separate page if you ever split the site:
-  <url>
-    <loc>https://harisadasivan.com/service-details.html</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  -->
 
 </urlset>

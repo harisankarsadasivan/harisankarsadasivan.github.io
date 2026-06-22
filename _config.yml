@@ -54,3 +54,5 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - "MyPage (2).zip"
+  - "*.zip"

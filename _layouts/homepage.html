@@ -6,6 +6,17 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <!-- ============================================================ -->
+  <!-- Security policy. GitHub Pages can't set HTTP response headers,  -->
+  <!-- so CSP and referrer are delivered via meta (the two directives   -->
+  <!-- browsers honor this way). The CSP allowlists exactly what this   -->
+  <!-- page loads: self + LinkedIn post embeds. Tighten if embeds change.-->
+  <!-- (X-Content-Type-Options / X-Frame-Options need a real header,    -->
+  <!-- i.e. a CDN in front of Pages, so they are intentionally omitted.)-->
+  <!-- ============================================================ -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self' data:; frame-src https://www.linkedin.com; connect-src 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- ============================================================ -->
   <!-- SEO: Primary Meta Tags                                        -->
   <!-- ============================================================ -->
   <title>Harisankar Sadasivan — GPU AI Performance Engineer | NVIDIA & UW</title>
@@ -53,9 +64,6 @@
   <link href="/assets/img/favicon.png" rel="icon">
   <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="/https://fonts.googleapis.com" rel="preconnect">
-  <link href="/https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <!-- Vendor CSS Files -->
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -64,7 +72,7 @@
   <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
 
   <!-- ============================================================ -->
   <!-- JSON-LD: Schema.org Person (feeds Google Knowledge Panel)     -->
@@ -190,7 +198,7 @@
         <img src="/assets/img/harisankarsadasivan.png" alt="Harisankar Sadasivan, Tech Lead AI Performance Engineering at NVIDIA" class="img-fluid">
       </div>
 
-      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <a href="/" class="logo d-flex align-items-center justify-content-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
         <h1 class="sitename">Dr. Harisankar Sadasivan</h1>
@@ -394,11 +402,11 @@
               <i class="bi bi-palette"></i>
             </div>
             <div class="service-content">
-              <h3 class="mb-3"><a href="service-details.html" class="text-white text-decoration-none">Teaching</a></h3>
-              
+              <h3 class="mb-3"><a href="#teaching" class="text-white text-decoration-none">Teaching</a></h3>
+
               <p> <a href="https://www.ece.uw.edu/people/harisankar-hari-sadasivan/" rel="noopener noreferrer" target="_blank">I joined the University of Washington faculty in December 2023 and currently serve as an Affiliate Assistant Professor in ECE. As AI demand for FLOPs has grown far faster than Moore’s Law, I have focused on the software and hardware innovations needed to close that gap. To help students and researchers understand how AI workloads map to GPU hardware, I designed and teach an AMD GPU Programming course at the University of Washington Seattle. The course’s projects have also informed several HPC and AI efforts at AMD from 2023 to 2025. To deepen this work, I designed a new course, Matrix to Machines: GPU HW Design on FPGA for AI, where students build a GPU hardware and software stack from scratch on an FPGA.</p>
               
-              <a href="service-details.html" class="read-more text-white">
+              <a href="#teaching" class="read-more text-white">
                 <!--<i class="bi bi-arrow-right"></i>-->
               </a>
             </div>
@@ -1004,13 +1012,6 @@
 
       <div class="swiper-wrapper">
 
-        <!-- Twitter Embed -->
-        <div class="swiper-slide">
-          <blockquote class="twitter-tweet" data-lang="en" style="margin: 0 auto; max-width: 100%;">
-            <a href="https://twitter.com/iamharisankar/status/1234567890123456789"></a>
-          </blockquote>
-        </div>
-
         <!-- LinkedIn Embed 1 -->
         <div class="swiper-slide" style="overflow:auto;">
           <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7275220838834970626?collapsed=0"
@@ -1046,10 +1047,6 @@
   </div> <!-- container -->
 </section>
 
-<!-- Load Twitter Widgets JS -->
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-  
   </main>
 
   <footer id="footer" class="footer light-background">
@@ -1073,6 +1070,8 @@
       <div class="container">
         <div class="copyright">
           <span>Copyright</span> <strong class="px-1 sitename">Harisankar Sadasivan</strong> <span>All Rights Reserved</span>
+          <br>
+          <small style="opacity:0.7;">Personal academic website of Dr. Harisankar Sadasivan. NVIDIA, AMD, and IEEE are current or former employers and professional affiliations; this site is not operated by, or officially affiliated with, those organizations.</small>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
@@ -1093,7 +1092,6 @@
 
   <!-- Vendor JS Files -->
  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/vendor/php-email-form/validate.js"></script>
     <script src="/assets/vendor/aos/aos.js"></script>
     <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="/assets/vendor/typed.js/typed.umd.js"></script>
